@@ -2,3 +2,23 @@
   font-family: Norse-Bold;
   src: url(./public/fonts/Norse-Bold.otf);
 }
+
+body {
+  height: 100vh;
+
+  display: flex;
+  margin: 0;
+}
+
+.left-side {
+  flex: 4;
+
+  background-image: url("./public/images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.right-side {
+  flex: 6;
+}
