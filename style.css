@@ -5,7 +5,7 @@
 
 :root {
   font-family: "Calibri";
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
@@ -93,4 +93,35 @@ body {
   justify-content: end;
 
   padding-bottom: 48px;
+}
+
+.right-side #sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right-side .input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Select only the header and forms group */
+.right-side .input-fields > * {
+  margin: 8px 0;
+}
+
+.right-side .input-fields > form {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px 32px;
+}
+
+.right-side .input-field {
+  display: flex;
+  flex-direction: column;
+
+  width: max(320px, 30%);
+  gap: 4px;
 }
