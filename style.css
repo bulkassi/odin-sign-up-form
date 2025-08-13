@@ -99,6 +99,9 @@ body {
   flex-direction: column;
   justify-content: end;
 
+  font-size: 22px;
+  font-weight: 700;
+
   padding-bottom: 48px;
 }
 
