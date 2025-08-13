@@ -175,6 +175,16 @@ body {
   border-radius: 15px;
 }
 
+.right-side #log-in {
+  font-weight: 450;
+}
+
+.right-side #log-in a {
+  font-weight: 600;
+  color: #396496;
+  text-decoration: none;
+}
+
 button {
   font-family: Roboto, sans-serif;
   font-size: 16px;
