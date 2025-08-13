@@ -105,10 +105,11 @@ body {
 .right-side #sign-up {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 
   padding: 0;
   border: 0;
+  gap: 16px;
 }
 
 .right-side .input-fields {
