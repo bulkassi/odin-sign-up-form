@@ -72,6 +72,10 @@ body {
   align-items: center;
 }
 
+.footer a {
+  color: white;
+}
+
 .right-side {
   flex: 6;
 
