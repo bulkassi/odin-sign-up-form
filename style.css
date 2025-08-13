@@ -4,7 +4,7 @@
 }
 
 :root {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
 }
 
@@ -141,7 +141,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
 
-  width: 280px;
+  width: min(40%, 280px);
   gap: 4px;
 }
 
@@ -162,4 +162,21 @@ body {
   outline: none;
   border: 2px solid blue;
   box-shadow: 2px 2px 2px 0 gray;
+}
+
+.right-side .buttons #create-account {
+  height: 50px;
+  width: 200px;
+
+  background-color: #396496;
+  color: white;
+
+  border: none;
+  border-radius: 15px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
