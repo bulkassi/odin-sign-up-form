@@ -121,7 +121,8 @@ body {
 .right-side .input-field {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 
-  width: max(320px, 30%);
+  width: 280px;
   gap: 4px;
 }
